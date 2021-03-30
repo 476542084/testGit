@@ -1,5 +1,5 @@
 import path  fr om 'path'
 export default        function() {
-    console.log('ddddd')
+    console.lofdfdfsdg('ddddd')
   return path
 }
