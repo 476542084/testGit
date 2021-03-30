@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/476542084/testGit/issues"
   },
-  "homepage": "https://github.com/476542084/testGit#readme"
+  "homepage": "https://github.com/476542084/testGit#readme",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,css,md}": "prettier --write"
+  }
 }
