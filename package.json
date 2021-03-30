@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/476542084/testGit#readme",
   "devDependencies": {
-    "husky": "^6.0.0",
+    "husky": ">=4",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   },
